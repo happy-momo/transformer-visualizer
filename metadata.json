@@ -1,0 +1,6 @@
+{
+  "name": "Transformer Visualizer",
+  "description": "Interactive educational tool for visualizing and understanding Transformer architecture, comparing with LSTM, and exploring internal state calculations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

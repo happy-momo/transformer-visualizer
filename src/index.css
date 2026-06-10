@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root[data-theme="light"] {
+  /* Replace slate with Google Light Palette */
+  --color-slate-950: #f8f9fa;
+  --color-slate-900: #ffffff;
+  --color-slate-800: #dadce0;
+  --color-slate-700: #bdc1c6;
+  --color-slate-600: #9aa0a6;
+  --color-slate-500: #80868b;
+  --color-slate-400: #5f6368;
+  --color-slate-300: #3c4043;
+  --color-slate-200: #202124;
+  --color-slate-100: #202124;
+  --color-slate-50: #202124;
+  
+  /* Replace indigo with Google Blue */
+  --color-indigo-300: #669df6;
+  --color-indigo-400: #1a73e8;
+  --color-indigo-500: #1967d2;
+  --color-indigo-600: #185abc;
+  
+  /* Replace emerald with Google Green */
+  --color-emerald-400: #34a853;
+  --color-emerald-500: #1e8e3e;
+  --color-emerald-600: #188038;
+
+  /* Replace amber with Google Yellow */
+  --color-amber-400: #fbbc04;
+  --color-amber-500: #f9ab00;
+  --color-amber-600: #e37400;
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-slate-700, #334155);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-slate-600, #475569);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-slate-700, #334155) transparent;
+}
