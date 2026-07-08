@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages project site: base must match the repo subpath
+    base: process.env.BASE_URL || '/transformervis.github.io/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
